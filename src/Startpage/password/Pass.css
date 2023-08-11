@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+.btn-2{
+    background: none;
+    padding: 1rem 1.2rem;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.dager{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+
+input{
+    border:  1px solid gray;
+    padding: 1rem 4rem;
+    border-radius: 4px;
+    font-size: 1.2rem;  
+}
+.btn{
+    border: nfone;
+    padding: 1rem 9rem;
+    border-radius: 4px;
+    background-color: red;
+    color: #fff;
+    font-size: 1.4rem;  
+}
+a{
+    text-decoration: none;
+}
+.footer-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+/* .footer-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+} */
+.footer-part{
+    display: flex;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;1,300&display=swap');
+#Core-part{
+    background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX3CZlPXqchnlDkv62Co2v7X1x1G3QIgxgAcpTCkTphXu2J3Nk);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-expand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.banner__contents{
+    margin-top: 7rem;
+    margin: 0 4rem;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.banner__title{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.banner__buttons{
+margin: 2rem 0;
+
+}
+  .banner__button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    padding:.5em 1.3em ;
+    border:none;
+    border-radius: 5px;
+  }
+  .button{
+    background:gray;
+    margin: 0 1rem;
+  }
+.banner__description{
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+}
+@media(max-width:780px){
+  .banner__description{
+    width: 70%;
+  }
+}
+@media(max-width:400px){
+  .banner__description{
+    width: 100%;
+  }
+  .banner__buttons{
+
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .banner__button{
+    margin: 1rem 0;
+  }
+}

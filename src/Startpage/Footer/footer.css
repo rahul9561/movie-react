@@ -1,0 +1,22 @@
+.full-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+.full-section p{
+    width: 50%;
+    margin: 2rem 0;
+}
+.list-section{
+    display: flex;
+}
+.list-section li{
+    list-style: none;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
